@@ -22,13 +22,13 @@ Model the price of houses with the available independent variables. This model w
   f. The propery sales are at different neighbourhoods with in Ames city limits.
 
 ## Conclusions
-sl No	Metric				REF+LR		REF+Ridge	Ridge		Lasso 
-0		R2 Score (Train)	0.875405	0.87505		0.941217	0.940837
-1		R2 Score (Test)		0.776238	0.782056	0.882637	0.887635
-2		RSS (Train)			3.692802	3.7033		1.742219	1.753497
-3		RSS (Test)			2.907332	2.831742	1.524892	1.459955
-4		MSE (Train)			0.065414	0.065507	0.044931	0.045076
-5		MSE (Test)			0.088643	0.087483	0.064198	0.062816
+Metric-REF+LR,REF+Ridge,Ridge,Lasso 
+1. 	R2 Score (Train)-0.875405(REF+LR),0.87505(REF+Ridge),0.941217(Ridge),0.940837(Lasso)
+2.	R2 Score (Test)-0.776238(REF+LR),0.782056(REF+Ridge),0.882637(Ridge),0.887635(Lasso)
+3.	RSS (Train)-3.692802(REF+LR),3.7033(REF+Ridge),1.742219(Ridge),1.753497(Lasso)
+4. 	RSS (Test)-2.907332(REF+LR),2.831742(REF+Ridge),1.524892(Ridge),1.459955(Lasso)
+5.  MSE (Train)-0.065414(REF+LR),0.065507(REF+Ridge),0.044931(Ridge),0.045076(Lasso)
+6.	MSE (Test)-0.088643(REF+LR),0.087483(REF+Ridge),0.064198(Ridge),0.062816(Lasso)
 
 
 Observations:
